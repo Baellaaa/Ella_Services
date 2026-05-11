@@ -1,0 +1,84 @@
+/* Deze onderstaande regels gelden voor alle elementen op mijn website */
+
+* {
+  margin: 0;
+  /* background-color:#0B6E4F */
+  /* border-width: 10em;
+  border-left: ridge, pink;
+  border-right: ridge, pink; */
+  /* padding-left: 10em, ridge, pink;
+  padding-right: 10em, ridge, pink; */
+  /* border: 1px solid black; */
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* overflow: hidden; */
+  background-color: #0B6E4F;
+  /* border: 1em, solid, white; */
+  /* border-style:groove; */
+}
+
+.content_container {
+  height: 100%;
+  overflow: hidden;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-image: linear-gradient(to right, #0B6E4F, #7F8D7D, #C27171, #7F8D7D, #0B6E4F);
+
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  z-index: 2;
+  border: #CF0E58;
+  padding: 5px;
+  background-color: #CF0E58;
+  overflow: hidden;
+  width: 100%;
+  /* max-width: auto; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: 1em;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  margin: 1em;
+  float: left;
+  display: table-footer-group;
+  background-color: #0B6E4F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
