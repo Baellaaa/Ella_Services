@@ -11,11 +11,29 @@
   /* border: 1px solid black; */
 }
 
+/* Hide scrollbar but keep functionality */
+
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+
+
+/* Firefox */
+scrollbar-width: none;
+
+/* IE/Edge legacy */
+-ms-overflow-style: none;
+}
+
 body {
   height: 100vh;
   width: 100%;
+  overflow-x: hidden;
   /* overflow: hidden; */
   background-color: #0B6E4F;
+  background-image: url("../img/sidebar.png");
+  background-repeat: repeat;
+  /* background-position: ; */
   /* border: 1em, solid, white; */
   /* border-style:groove; */
 }
@@ -25,8 +43,9 @@ body {
   overflow: hidden;
   margin-top: 0em;
   margin-bottom: 0em;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 6em;
+  margin-right: 6em;
+  /* border-left: 2em, ridge, #765A3B; */
   background-image: linear-gradient(to right, #0B6E4F, #7F8D7D, #C27171, #7F8D7D, #0B6E4F);
 
 }
@@ -73,7 +92,7 @@ body {
 
 footer {
   width: 100%;
-  margin: 1em;
+  /* margin: 1em; */
   float: left;
   display: table-footer-group;
   background-color: #0B6E4F;
