@@ -90,6 +90,15 @@ body {
   display: none;
 }
 
+.button {
+  border: none;
+  background-color: #CF0E58;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
 footer {
   width: 100%;
   /* margin: 1em; */
