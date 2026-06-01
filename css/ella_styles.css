@@ -61,6 +61,14 @@ body {
   /* max-width: auto; */
 }
 
+.titel_kopjes {
+  text-align: center;
+  padding: 1em;
+  color: #0B6E4F;
+  text-decoration: underline #CF0E58;
+  /* text-decoration: wavy #CF0E58; */
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   margin: 1em;
