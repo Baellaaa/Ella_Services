@@ -58,6 +58,13 @@ body {
   /* text-decoration: wavy #CF0E58; */
 }
 
+.drowgoo_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 1em;}
+
 /* Add a background color to the top navigation */
 .topnav {
   z-index: 2;
