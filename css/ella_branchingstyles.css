@@ -2,6 +2,7 @@
 
 * {
   margin: 0;
+  text-align: center;
   /* background-color:#0B6E4F */
   /* border-width: 10em;
   border-left: ridge, pink;
@@ -68,7 +69,7 @@ body {
 /* Add a background color to the top navigation */
 .topnav {
   z-index: 2;
-  border: #CF0E58;
+  border: #FFD7D7;
   padding: 5px;
   background-color: #CF0E58;
   overflow: hidden;
